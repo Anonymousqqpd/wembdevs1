@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WiFi Vending Machine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>WiFi Vending Machine</h1>
+  </header>
+  <img src="img/wemb.png" alt="WiFi Vending Machine">
+  <div class="container">
+    <h2>Get Your WiFi Access</h2>
+    <p>Welcome to our WiFi vending machine! Please select the desired WiFi plan below:</p>
+    <ul>
+      <li><button onclick="buyWiFi(5)">1 Hour Access - $5</button></li>
+      <li><button onclick="buyWiFi(10)">1 Day Access - $10</button></li>
+      <li><button onclick="buyWiFi(20)">1 Week Access - $20</button></li>
+    </ul>
+    <p id="status"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
